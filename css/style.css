@@ -1,0 +1,126 @@
+body
+{
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.login-form
+{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	width: 400px;
+	height: 600px;
+	padding: 25px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+h3	
+{
+	border: 2px solid;
+	border-color: rgba(0,0,0,.25);
+	text-align: center;
+	width: 50%;
+	color: white;
+	height: 19px;
+	margin-left: 83px;
+	padding: 10px;
+}
+h1
+{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif, Impact;
+}
+.middle-text
+{
+	text-align: center;
+	color: white;
+	font-family: sans-serif, Impact;
+	margin: 0px 10px 20px 10px;
+}
+.Login
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+	margin-right: 10px;
+	width: 95%;
+	font-weight: bold;
+
+}
+.sign-in
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+	margin-right: 10px;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 25px;
+	background-color: rgb(241,112,93);
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	color: white;
+}
+.password
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+	margin-right: 10px;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 25px;
+	background-color: rgba(241,112,93,.4);
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	color: white;
+}
+.form
+{
+	position: relative;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	width: 400px;
+	padding: 25px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	margin-top: 405px;
+}
+.form p
+{
+	text-align: center;
+	color: white;
+	font-family: sans-serif, Impact;
+	margin: 0px 10px 20px 10px;
+	font-size: 23px;
+	font-family: cursive, Comic Sans MS;
+}
+.form input
+{
+	padding: 10px;
+	border: 2px solid gray;
+	border-bottom: 1px solid gray;
+	margin-right: 10px;
+	width: 100%;
+	font-weight: bold;
+	background-color: transparent;
+	border-radius: 5px;
+	height: 40px;
+	color: white;
+}
+.form input:hover
+{
+	background-color: rgba(0,0,0,.5);
+	color:yellow;
+	cursor: pointer;
+}
